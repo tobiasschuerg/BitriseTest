@@ -21,9 +21,4 @@ class ExampleInstrumentedTest {
         assertEquals("de.tobiasschuerg.bitrisetest", appContext.packageName)
     }
 
-    @Test
-    fun fail() {
-        val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.google", appContext.packageName)
-    }
 }
