@@ -1,6 +1,7 @@
 package de.tobiasschuerg.bitrisetest
 
 import org.junit.Assert.assertEquals
+import org.junit.Assert.assertNotEquals
 import org.junit.Test
 
 /**
@@ -17,6 +18,6 @@ class ExampleUnitTest {
 
     @Test
     fun addition_isCorrect_fail() {
-        assertEquals(5, 2 + 2)
+        assertNotEquals(5, 2 + 2)
     }
 }
