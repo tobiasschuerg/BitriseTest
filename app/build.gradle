@@ -24,7 +24,8 @@ android {
 
     lintOptions {
         warningsAsErrors true
-        disable 'AllowBackup', 'UnusedResources'
+        disable 'AllowBackup' //, 'UnusedResources'
+        htmlOutput file("bitrise/deploy/lint-report.html")
     }
 }
 
